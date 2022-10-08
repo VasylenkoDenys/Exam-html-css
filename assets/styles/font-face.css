@@ -1,12 +1,9 @@
 @font-face {
   font-family: Monserrat;
+  font-weight: 500;
   src: url('../fonts/Monserrat/Montserrat-Bold.ttf') format('TrueType');
 }
 @font-face {
   font-family: MonserratRegular;
   src: url('../fonts/Monserrat/Montserrat-Regular.ttf') format('TrueType');
-}
-@font-face {
-  font-family: Monserrat;
-  src: url('../fonts/Monserrat/Montserrat-Medium.ttf') format('TrueType');
 }

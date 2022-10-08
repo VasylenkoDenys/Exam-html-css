@@ -1,0 +1,46 @@
+:root {
+  --accent-color: #fa4a0c;
+  --main-text-color: #252b42;
+  --secondary-text-color: #737373;
+  font-family: Monserrat;
+  font-size: 24px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.h1-heading-style {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.2px;
+}
+
+.h2-heading-style {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.h3-headind-style {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+.h4-headind-style {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}

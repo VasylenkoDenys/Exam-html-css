@@ -1,0 +1,14 @@
+
+.header-style {
+  padding: 30px 50px;
+  font-family: Monserrat;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
