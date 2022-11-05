@@ -1,0 +1,26 @@
+/* .phones-app-section {
+  max-width: 1440px;
+} */
+
+.phone-app-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-app-img {
+  position: relative;
+  top: -340px;
+  right: 50px;
+  margin-bottom: 110px;
+}
+
+.phone-app-img-wrapper::after {
+  display: block;
+  content: '';
+  background: var(--secondary-text-color);
+  opacity: 0.3;
+  height: 3px;
+  width: 50vw;
+  position: absolute;
+}

@@ -1,0 +1,31 @@
+.stay-hungry-section-style {
+  background: url('../images/bg-main.png') no-repeat center top;
+  color: #fff;
+  padding: 75px;
+  background-size: auto;
+}
+
+.hungry-section-wrapper {
+  text-align: center;
+ }
+
+.button-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.button-style {
+  padding: 15px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  min-width: 220px;
+  background: none;
+  margin: 50px 35px 145px;
+}
+
+.button-style:hover {
+background: var(--accent-color);
+border: 2px solid var(--accent-color);
+transition: background-color 0.2s;
+}
