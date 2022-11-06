@@ -1,26 +1,27 @@
-/* .phones-app-section {
-  max-width: 1440px;
-} */
+.phones-app-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .phone-app-img-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  top: -100px;
 }
 
 .phone-app-img {
-  position: relative;
-  top: -340px;
-  right: 50px;
-  margin-bottom: 110px;
+  
 }
 
-.phone-app-img-wrapper::after {
-  display: block;
+.horisontal-line{
   content: '';
   background: var(--secondary-text-color);
   opacity: 0.3;
   height: 3px;
   width: 50vw;
-  position: absolute;
+  margin: 0 auto;
+  margin-bottom: 70px;
 }
+
+
+

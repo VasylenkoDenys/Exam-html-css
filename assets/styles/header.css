@@ -12,3 +12,13 @@
   align-items: center;
 }
 
+.nav-list-item {
+  display: inline-block;
+  padding: 30px;
+}
+
+.nav-list-item:hover {
+  text-decoration-line: underline;
+}
+
+@media

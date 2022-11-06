@@ -1,0 +1,24 @@
+.download-page-section{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background: url('../images/bg-download.png')  no-repeat center;
+  color: #fff;
+  text-align: center;
+  padding: 130px;
+}
+
+.download-button-style {
+  padding: 15px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  min-width: 220px;
+  background: none;
+  margin: 50px 35px;
+}
+
+.download-button-style:hover {
+background: var(--accent-color);
+border: 2px solid var(--accent-color);
+transition: background-color 0.2s;
+}

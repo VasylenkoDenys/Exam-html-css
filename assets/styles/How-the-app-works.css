@@ -1,0 +1,24 @@
+.how-app-works-section {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.image-description-article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 130px;
+}
+
+.login-phone-img-wrapper{
+}
+
+.description-wrapper{
+  max-width: 570px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+.accent-text{
+  color: var(--accent-color);
+}

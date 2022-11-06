@@ -1,5 +1,5 @@
 .stay-hungry-section-style {
-  background: url('../images/bg-main.png') no-repeat center top;
+  background: url('../images/bg-main.png') no-repeat center;
   color: #fff;
   padding: 75px;
   background-size: auto;
@@ -21,7 +21,7 @@
   border-radius: 40px;
   min-width: 220px;
   background: none;
-  margin: 50px 35px 145px;
+  margin: 50px 35px;
 }
 
 .button-style:hover {
