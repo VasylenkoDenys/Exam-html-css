@@ -1,13 +1,14 @@
 .stay-hungry-section-style {
-  background: url('../images/bg-main.png') no-repeat center;
+  background: url('../images/bg-main.png') center no-repeat ;
+  background-size: 100%;
   color: #fff;
-  padding: 75px;
-  background-size: auto;
+  padding: 75px 25px;
+  background-size: cover;
 }
 
 .hungry-section-wrapper {
   text-align: center;
- }
+}
 
 .button-wrapper {
   position: relative;

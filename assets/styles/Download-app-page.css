@@ -2,9 +2,11 @@
   margin-top: 200px;
   margin-bottom: 50px;
   background: url('../images/bg-download.png')  no-repeat center;
+  background-size: 100%;
   color: #fff;
+  padding: 75px 25px;
+  background-size: cover;
   text-align: center;
-  padding: 130px;
 }
 
 .download-button-style {

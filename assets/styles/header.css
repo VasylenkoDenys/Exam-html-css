@@ -1,9 +1,8 @@
 
 .header-style {
-  padding: 30px 50px;
+  padding: 25px 40px;
   font-family: Monserrat;
   font-weight: bold;
-  font-size: 1rem;
 }
 
 .header-flex-container {
@@ -14,11 +13,33 @@
 
 .nav-list-item {
   display: inline-block;
-  padding: 30px;
+  padding: 10px;
+  position: relative;
 }
 
-.nav-list-item:hover {
-  text-decoration-line: underline;
+.nav-list-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--accent-color);
+  transition: 0.35s;
 }
 
-@media
+.nav-list-item:hover:before{
+  width: 100%;
+}
+
+@media screen and (max-width:745px) {
+  .header-flex-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:540px) {
+  .nav-list-item{
+    display: block;
+    text-align: center;
+  }
+}

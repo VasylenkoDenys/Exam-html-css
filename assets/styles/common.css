@@ -18,10 +18,15 @@ body {
 
 .h1-heading-style {
   font-family: Monserrat;
-  font-size: 58px;
+  font-size: calc(30px + 28 * (100vw / 1440));
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 0.2px;
+}
+@media (max-width:845px) {
+  h1-heading-style {
+    font-size: calc(30px + (28 + 28*0.7) * (100vw - 320px/ 1440));
+  }
 }
 
 .h2-heading-style {

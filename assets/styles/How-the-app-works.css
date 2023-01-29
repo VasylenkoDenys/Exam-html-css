@@ -1,16 +1,23 @@
-.how-app-works-section {
+.how-app-works-top-section, .how-app-works-buttom-section {
   text-align: center;
   padding: 0 20px;
-}
+} 
 
 .image-description-article {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 130px;
+
 }
 
 .login-phone-img-wrapper{
+
+}
+
+.img-style {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .description-wrapper{
@@ -21,4 +28,24 @@
 
 .accent-text{
   color: var(--accent-color);
+}
+
+@media screen and (max-width:745px) {
+  .how-app-works-top-section>.image-description-article {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .description-wrapper{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:745px) {
+  .how-app-works-buttom-section>.image-description-article {
+    display: flex;
+    flex-direction: column;
+  }
+  .description-wrapper{
+    text-align: center;
+  }
 }
